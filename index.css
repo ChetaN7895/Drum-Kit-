@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.title{
+    font-size: 5rem;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 0 brown;
+}
+
+.w{
+    background-image: url('./Images/tom1.png');
+}
+.a{
+    background-image: url('./Images/tom2.png');
+}
+.s{
+    background-image: url('./Images/tom3.png');
+}
+.d{
+    background-image: url('./Images/tom4.png');
+}
+.j{
+    background-image: url('./Images/snare.png');
+}
+.k{
+    background-image: url('./Images/crash.png');
+}
+.l{
+    background-image: url('./Images/kick.png');
+}
+
+.drum{
+    border: 10px solid black;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: chocolate;
+    text-shadow: 3px 0 cornflowerblue;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background-color: white;
+    line-height: 2;
+    border-radius: 2px;
+}
+
+.set{
+    margin: 10% auto;
+}
+
+/* .pressed{
+    box-sizing: 2px 2px 2px brown;
+    opacity: 1;
+} */
+
+.pressed {
+  box-shadow: 0 3px 4px #666;
+  transform: scale(0.98);
+  background-color: #ddd;
+}
+
+footer{
+    color: bisque;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Dancing Character */
+.character-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#dancer {
+    width: 200px;
+    height: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.character-select {
+    text-align: center;
+    margin-top: 15px;
+    color: bisque;
+}
+select {
+    font-size: 1rem;
+    padding: 5px;
+}
